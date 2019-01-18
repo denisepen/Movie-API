@@ -1,8 +1,10 @@
 <h1>Results</h1>
 
-<p>
+<ul>
   <% results["Search"].forEach(function(result) { %>
     <li><%= result.Title %> - <%= result.Year %><li>
   <% }) %>
 
- </p>
+</ul>
+
+<a href="/">Search Again</a>
